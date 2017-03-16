@@ -551,3 +551,10 @@ vendor/lib/mediadrm/libwvdrmengine.so
 bin/cnss-daemon
 bin/cnss_diag
 -lib64/libwpa_qmi_eap_proxy.so
+
+
+ #OOS Camera libs
+  lib64/libfilter-sdk.so
+  lib64/libopbaselib.so
+  lib64/libopcameralib.so
+  lib64/libopcamera.so

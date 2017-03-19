@@ -101,12 +101,12 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    OnePlusCamera \
     camera.msm8994 \
     libshim_camera \
     libshim_ims-camera \
-    sensors.hal.tof \ 
-    OnePlusCamera \
-   libcamera_shim
+    libcamera_shim \
+    sensors.hal.tof  
 	
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \

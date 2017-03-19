@@ -164,10 +164,11 @@ USE_SENSOR_MULTI_HAL := true
 ifeq ($(HOST_OS),linux)
   ifneq ($(TARGET_BUILD_VARIANT),eng)
     ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := false
+      WITH_DEXPREOPT := true
    endif
   endif
 endif
+WITH_DEXPREOPT := true
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true

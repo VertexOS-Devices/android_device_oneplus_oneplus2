@@ -55,9 +55,6 @@ limitations under the License.
             <Limit name="measured-frame-rate-1280x720" range="79-79" />
             <Limit name="measured-frame-rate-1920x1080" range="42-42" />
         </MediaCodec>
-        <MediaCodec name="OMX.google.h263.encoder" type="video/3gpp" update="true">
-            <Limit name="measured-frame-rate-176x144" range="275-275" />
-        </MediaCodec>
         <MediaCodec name="OMX.google.mpeg4.encoder" type="video/mp4v-es" update="true">
             <Limit name="measured-frame-rate-176x144" range="268-268" />
         </MediaCodec>

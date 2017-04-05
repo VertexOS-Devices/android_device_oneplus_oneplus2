@@ -221,3 +221,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus2/BoardConfigVendor.mk
+
+# Define target simulator to ignore hardware/stm
+TARGET_SIMULATOR := true 

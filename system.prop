@@ -139,6 +139,9 @@ rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 telephony.lteOnCdmaDevice=1
 telephony.lteOnGsmDevice=1
 
+# SDCardFS
+ro.sys.sdcardfs=true
+
 # Sensors
 ro.qc.sdk.camera.facialproc=false
 ro.qc.sdk.gestures.camera=false

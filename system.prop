@@ -113,6 +113,7 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # QCOM
 drm.service.enabled=true
 ro.frp.pst=/dev/block/bootdevice/by-name/config
+sys.hwc.gpu_perf_mode=1
 
 # RIL
 DEVICE_PROVISIONED=1

@@ -417,5 +417,8 @@
 
     <!-- Night Display -->
     <bool name="config_nightDisplayAvailable">true</bool>
+    
+    <!-- Fingerprint Delay Potential FIX -->
+    <bool name="config_fingerprintRemoveClientOnCancel">true</bool>
 
 </resources>

@@ -107,16 +107,19 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library \
     libantradio
-
 # Camera
 PRODUCT_PACKAGES += \
-    OnePlusCamera \
     camera.msm8994 \
     libshim_camera \
-    libshim_ims-camera \
-    libcamera_shim \
-    sensors.hal.tof  
-	
+    sensors.hal.tof \
+    Snap \
+    mm-qcamera-app \
+    libmm-qcamera \
+    sensors.hal.tof
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.d/10opcamsanitize.sh:system/etc/init.d/10opcamsanitize.sh
+
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \

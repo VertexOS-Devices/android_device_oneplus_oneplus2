@@ -44,7 +44,7 @@ on early-init
     insmod /sbin/qdrbg_module.ko
 
 on init
-    export LD_SHIM_LIBS "/system/vendor/lib64/lib-imscamera.so|libshim_ims-camera.so:/system/lib/libopcamerahw_interface.so|libshim_camera.so:/system/lib/libFNVfbEngineLib.so|libshim_camera.so"
+    export LD_SHIM_LIBS /system/vendor/lib64/lib-imscamera.so|libshim_camera.so
 
     # Set permissions for persist partition
     mkdir /persist 0771 system system
@@ -481,9 +481,14 @@ service qcamerasvr /system/bin/mm-qcamera-daemon
     user camera
     group camera system inet input graphics
     writepid /dev/cpuset/camera-daemon/tasks
-	
-service zram-init /system/bin/sh /system/etc/init.zram.sh
-    class late_start
+service qseecomd /system/bin/qseecomd
+    class core
+    user root
+    group root
+    writepid /dev/cpuset/system-background/tasks
+
+service perfd /system/vendor/bin/perfd
+    class main
     user root
     disabled
     oneshot

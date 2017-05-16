@@ -63,7 +63,7 @@ ro.config.hw_camera_bestShot=true
 persist.camera.tintless=enable
 persist.camera.4k2k.enable=1
 vidc.dec.120fps.enabled=1
->>>>>>> 5927aa5... oneplus2: HAL3
+ro.media.enc.jpeg.quality=100
 
 # CEC
 persist.speaker.prot.enable=false

@@ -182,6 +182,10 @@ TARGET_NO_RPC := true
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true
+TARGET_PREFERS_AOSP_ROTATION_SENSOR := true
+
+TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
+TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)

@@ -170,8 +170,6 @@ telephony.lteOnGsmDevice=1
 
 # Sensors
 ro.qc.sdk.camera.facialproc=false
-ro.qc.sdk.gestures.camera=false
-ro.qc.sdk.sensors.gestures=true
 
 # Storage
 persist.fuse_sdcard=true

@@ -1,13 +1,13 @@
 [
  {
-   "repository" : "DirtyUnicorns/android_device_oppo_common",
+   "repository" : "VertexOS-Devices/android_device_oppo_common",
    "target_path": "device/oppo/common",
-   "branch"     :  "n7x-caf"
+   "branch"     :  "n"
  },
  {
-   "repository" : "DirtyUnicorns/android_kernel_oneplus_msm8994",
+   "repository" : "VertexOS-Devices/android_kernel_oneplus_msm8994",
    "target_path": "kernel/oneplus/msm8994",
-   "branch"     : "n7x-caf"
+   "branch"     : "n"
  },
  {
    "repository" : "DirtyUnicorns/android_system_qcom",
@@ -30,9 +30,9 @@
    "branch"     : "n7x-caf"
  },
  {
-   "repository" : "DirtyUnicorns/android_vendor_oneplus",
+   "repository" : "VertexOS-Devices/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "branch"     : "n7x-caf"
+   "branch"     : "n"
  },
  {
    "repository" : "DirtyUnicorns/android_vendor_qcom_binaries",

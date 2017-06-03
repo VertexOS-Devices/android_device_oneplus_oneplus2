@@ -189,14 +189,13 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
 # Enable dexpreopt to speed boot time
 ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
+  ifeq ($(TARGET_BUILD_VARIANT),user)
     ifeq ($(WITH_DEXPREOPT),)
       WITH_DEXPREOPT := true
-   endif
+      DONT_DEXPREOPT_PREBUILTS := true
+    endif
   endif
 endif
-WITH_DEXPREOPT := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true

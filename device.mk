@@ -218,10 +218,9 @@ PRODUCT_PACKAGES += \
 
 # OTA Updates
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ota.romname=AOSP-OnePlus2-7.1 \
+    ro.ota.romname=VertexOS-OnePlus2 \
     ro.ota.version=$(shell date -u +%Y%m%d) \
-    ro.ota.manifest=https://romhut.com/roms/aosp-oneplus2-7-1/ota.xml
-
+    ro.ota.manifest=https://raw.githubusercontent.com/vibhoothiiaanand/vertexota_xml/n/op2/ota.xml
 # Power
 PRODUCT_PACKAGES += \
     power.msm8994

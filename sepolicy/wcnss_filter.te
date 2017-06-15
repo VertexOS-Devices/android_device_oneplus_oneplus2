@@ -1,1 +1,2 @@
 ﻿allow wcnss_filter rootfs:lnk_file getattr;
+allow wcnss_filter diag_device:chr_file { read write ioctl open };

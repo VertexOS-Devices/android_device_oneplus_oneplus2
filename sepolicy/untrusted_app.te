@@ -1,0 +1,2 @@
+allow untrusted_app anr_data_file:file { read getattr };
+allow untrusted_app rootfs:dir { read open };

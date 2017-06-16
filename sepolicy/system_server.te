@@ -16,4 +16,3 @@ allow system_server user_profile_data_file:dir { read open };
 allow system_server qemu_hw_mainkeys_prop:property_service set;
 
 allow system_server diag_device:chr_file { read write ioctl open };
-allow system_server su:fifo_file write;

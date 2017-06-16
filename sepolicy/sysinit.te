@@ -1,1 +1,4 @@
 ﻿allow sysinit rootfs:lnk_file getattr;
+allow sysinit apk_data_file:dir search;
+allow sysinit self:capability dac_read_search;
+allow sysinit userinit_exec:file execute;

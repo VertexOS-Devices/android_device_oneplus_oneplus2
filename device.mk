@@ -220,7 +220,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.romname=VertexOS-OnePlus2 \
     ro.ota.version=$(shell date -u +%Y%m%d) \
-    ro.ota.manifest=https://raw.githubusercontent.com/vibhoothiiaanand/vertexota_xml/n/vertex_oneplus2.xml
+    ro.ota.manifest=https://raw.githubusercontent.com/VertexOS/android_extras_vertexota/n/vertex_oneplus2.xml
 # Power
 PRODUCT_PACKAGES += \
     power.msm8994

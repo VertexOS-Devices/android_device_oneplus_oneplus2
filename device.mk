@@ -112,6 +112,7 @@ PRODUCT_PACKAGES += \
     camera.msm8994 \
     libshim_camera \
     sensors.hal.tof \
+    Snap \
     mm-qcamera-app \
     libmm-qcamera \
     sensors.hal.tof
@@ -292,4 +293,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
-$(call inherit-product, device/oneplus/oneplus2/camera/camera.mk)

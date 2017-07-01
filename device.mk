@@ -109,10 +109,10 @@ PRODUCT_PACKAGES += \
     libantradio
 # Camera
 PRODUCT_PACKAGES += \
+    OnePlusCamera \
     camera.msm8994 \
     libshim_camera \
     sensors.hal.tof \
-    Snap \
     mm-qcamera-app \
     libmm-qcamera \
     sensors.hal.tof

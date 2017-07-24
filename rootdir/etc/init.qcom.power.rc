@@ -70,7 +70,7 @@ on enable-low-power
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/target_loads "85 1500000:90 1800000:70"
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/min_sample_time 40000
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/max_freq_hysteresis 80000
-    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 384000
+    write /sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq 302000
 
     # Insert core_ctl module and use conservative paremeters
     #insmod /system/lib/modules/hcube.ko
@@ -144,7 +144,7 @@ on enable-low-power
     # Set perfd properties
     rm /data/system/perfd/default_values
     setprop ro.min_freq_0 384000
-    setprop ro.min_freq_4 384000
+    setprop ro.min_freq_4 302000
     start perfd
 
 on superb

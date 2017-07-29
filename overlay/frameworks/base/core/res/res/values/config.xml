@@ -434,4 +434,7 @@
 
     <!-- Proximity check on screen on default -->
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <!-- Should the pinner service pin the Camera application? -->
+    <bool name="config_pinnerCameraApp">true</bool>
 </resources>

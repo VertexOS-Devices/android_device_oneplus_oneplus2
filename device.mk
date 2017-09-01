@@ -250,6 +250,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ota.manifest=https://raw.githubusercontent.com/VertexOS/android_extras_vertexota/n/vertex_oneplus2.xml
 # Power
 PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-impl \
     power.msm8994
 
 # Ramdisk

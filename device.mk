@@ -117,14 +117,10 @@ PRODUCT_PACKAGES += \
     OnePlusCamera \
     camera.msm8994 \
     libshim_camera \
+    libshim_ims-camera \
     sensors.hal.tof \
-    mm-qcamera-app \
-    libmm-qcamera \
-    sensors.hal.tof \
-    libcamera_shim
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.d/10opcamsanitize.sh:system/etc/init.d/10opcamsanitize.sh
+    camera.device@3.2-impl \
+    android.hardware.camera.provider@2.4-impl
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \

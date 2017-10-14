@@ -131,12 +131,21 @@ media.stagefright.enable-scan=true
 media.stagefright.legacyencoder=true *get camera to work with mm blobs
 media.stagefright.less-secure=true *get camera to work with mm blobs
 media.stagefright.log-uri=1
+persist.media.treble_omx=false
 mmp.enable.3g2=true
 
 # Navigation bar
 qemu.hw.mainkeys=1
 
 # Perf
+# ims stuff
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=0
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=0
+
+# QC vendor extension
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # QCOM

@@ -8,4 +8,7 @@ LOCAL_CFLAGS := -Wall
 LOCAL_SRC_FILES := init_oneplus2.cpp
 LOCAL_MODULE := libinit_oneplus2
 
+LOCAL_STATIC_LIBRARIES := \
+     libbase
+
 include $(BUILD_STATIC_LIBRARY)
